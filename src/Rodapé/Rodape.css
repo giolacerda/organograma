@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pagina {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.rodape {
+    background-color: #6278f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+
+}
+
+.redes-sociais img {
+    width: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.1);
+}
+
+.logo img {
+    width: 120px;
+
+}
+
+.creditos {
+    color: white;
+    font-size: 14px;
+}
